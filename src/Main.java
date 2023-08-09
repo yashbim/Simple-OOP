@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<Van> vans = new ArrayList<>(); //declaring ArrayList
+        ArrayList<Van> vehicles = new ArrayList<>(); //declaring ArrayList
 
         for (int i=1; i<=3; i++){   //data input loop
             Scanner myscanner=new Scanner(System.in);
@@ -18,10 +18,10 @@ public class Main {
             System.out.println("Enter color :");
             String input_color = myscanner.nextLine();
 
-            vans.add(new Van(input_brand,input_driver,input_color));
+            vehicles.add(new Van(input_brand,input_driver,input_color));
         }
 
-        for (Van van : vans){
+        for (Van van : vehicles){
             System.out.println("\nVan "+van+
                     "\n========"+
                     "\nBrand : " +van.getBrand()+
