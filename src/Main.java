@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<Van> vans = new ArrayList<>();
+        ArrayList<Van> vans = new ArrayList<>(); //declaring ArrayList
 
-        for (int i=1; i<=3; i++){
+        for (int i=1; i<=3; i++){   //data input loop
             Scanner myscanner=new Scanner(System.in);
 
             System.out.println("Enter brand :");
