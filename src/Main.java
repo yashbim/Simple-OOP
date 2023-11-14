@@ -21,6 +21,8 @@ public class Main {
             vehicles.add(new Van(input_brand,input_driver,input_color));
         }
 
+        //printing details
+
         for (Van van : vehicles){
             System.out.println("\nVan "+van+
                     "\n========"+
